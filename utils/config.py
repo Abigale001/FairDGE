@@ -28,7 +28,6 @@ config_args = {
         'dim': (64, 'embedding dimension'),
         'ablation': ('dynamic', 'dynamic or static or no_CL or no_degree or no_classification_loss'),
         'if_two_layer': (False, 'if there is cnn to embed degree'),
-        'baseline':(None, 'compare baseline: None, FairGNN, FairVGNN, GCN, GAT'),
         'seq_layer': (3, 'number of sequence layers'),
         'n_heads': (4, 'number of attention heads for graph attention networks, must be a divisor dim'),
         'act': ('relu', 'which activation function to use (or None for no activation)'),
